@@ -18,11 +18,11 @@ TextStyle responsiveTextStyle(
   return mobile;
 }
 
-int responsiveGridCount(
+T responsiveValue<T>(
   BuildContext context, {
-  required int mobile,
-  int? tablet,
-  int? desktop,
+  required T mobile,
+  T? tablet,
+  T? desktop,
 }) {
   final mediaQuery = MediaQuery.of(context);
   final deviceScreenType = getDeviceType(mediaQuery);
