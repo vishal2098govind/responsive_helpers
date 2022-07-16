@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:responsive_helpers/responsive_helpers.dart';
+part of responsive_helpers;
 
 class ResponsiveSizedBox extends StatelessWidget {
   const ResponsiveSizedBox({

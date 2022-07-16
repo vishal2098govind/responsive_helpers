@@ -8,3 +8,5 @@ part 'helpers/responsive_builder.dart';
 part 'helpers/responsive_orientation_layout.dart';
 part 'helpers/responsive_screen_layout.dart';
 part 'helpers/sizing_info.dart';
+part 'helpers/responsive_sized_box.dart';
+part 'helpers/responsive_row_col.dart';
